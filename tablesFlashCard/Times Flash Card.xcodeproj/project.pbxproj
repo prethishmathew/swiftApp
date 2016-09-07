@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91EB85A1D0EFF8900AB07ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91EB8591D0EFF8900AB07ED /* AppDelegate.swift */; };
+		D91EB85C1D0EFF8900AB07ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91EB85B1D0EFF8900AB07ED /* ViewController.swift */; };
+		D91EB85F1D0EFF8900AB07ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91EB85D1D0EFF8900AB07ED /* Main.storyboard */; };
+		D91EB8611D0EFF8900AB07ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91EB8601D0EFF8900AB07ED /* Assets.xcassets */; };
+		D91EB8641D0EFF8900AB07ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91EB8621D0EFF8900AB07ED /* LaunchScreen.storyboard */; };
+		D91EB86F1D0EFF8900AB07ED /* tablesFlashCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91EB86E1D0EFF8900AB07ED /* tablesFlashCardTests.swift */; };
+		D91EB87A1D0EFF8900AB07ED /* tablesFlashCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91EB8791D0EFF8900AB07ED /* tablesFlashCardUITests.swift */; };
+		D939B3911D150B550016B7ED /* CustomCellContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D939B3901D150B550016B7ED /* CustomCellContainer.swift */; };
+		D982C21B1D175B7200402FA8 /* TableGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D982C21A1D175B7200402FA8 /* TableGenerator.swift */; };
+		D9CA1FE31D10574F009A3C60 /* MasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA1FE21D10574F009A3C60 /* MasterViewModel.swift */; };
+		D9D0D8711D0F3CD700B01455 /* TableDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D0D8701D0F3CD700B01455 /* TableDisplayViewController.swift */; };
+		D9D0D8731D0F3E5A00B01455 /* multiplicationTableAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D0D8721D0F3E5A00B01455 /* multiplicationTableAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D91EB86B1D0EFF8900AB07ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91EB84E1D0EFF8900AB07ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91EB8551D0EFF8900AB07ED;
+			remoteInfo = tablesFlashCard;
+		};
+		D91EB8761D0EFF8900AB07ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91EB84E1D0EFF8900AB07ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91EB8551D0EFF8900AB07ED;
+			remoteInfo = tablesFlashCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D91EB8561D0EFF8900AB07ED /* Times Flash Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Times Flash Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91EB8591D0EFF8900AB07ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D91EB85B1D0EFF8900AB07ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D91EB85E1D0EFF8900AB07ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D91EB8601D0EFF8900AB07ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91EB8631D0EFF8900AB07ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D91EB8651D0EFF8900AB07ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91EB86A1D0EFF8900AB07ED /* Times Flash Card.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Times Flash Card.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91EB86E1D0EFF8900AB07ED /* tablesFlashCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tablesFlashCardTests.swift; sourceTree = "<group>"; };
+		D91EB8701D0EFF8900AB07ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91EB8751D0EFF8900AB07ED /* Times Flash Card.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Times Flash Card.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91EB8791D0EFF8900AB07ED /* tablesFlashCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tablesFlashCardUITests.swift; sourceTree = "<group>"; };
+		D91EB87B1D0EFF8900AB07ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D939B3901D150B550016B7ED /* CustomCellContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellContainer.swift; sourceTree = "<group>"; };
+		D982C21A1D175B7200402FA8 /* TableGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableGenerator.swift; sourceTree = "<group>"; };
+		D9CA1FE21D10574F009A3C60 /* MasterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewModel.swift; sourceTree = "<group>"; };
+		D9D0D8701D0F3CD700B01455 /* TableDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDisplayViewController.swift; sourceTree = "<group>"; };
+		D9D0D8721D0F3E5A00B01455 /* multiplicationTableAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = multiplicationTableAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D91EB8531D0EFF8900AB07ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91EB8671D0EFF8900AB07ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91EB8721D0EFF8900AB07ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D91EB84D1D0EFF8900AB07ED = {
+			isa = PBXGroup;
+			children = (
+				D91EB8581D0EFF8900AB07ED /* tablesFlashCard */,
+				D91EB86D1D0EFF8900AB07ED /* tablesFlashCardTests */,
+				D91EB8781D0EFF8900AB07ED /* tablesFlashCardUITests */,
+				D91EB8571D0EFF8900AB07ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D91EB8571D0EFF8900AB07ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91EB8561D0EFF8900AB07ED /* Times Flash Card.app */,
+				D91EB86A1D0EFF8900AB07ED /* Times Flash Card.xctest */,
+				D91EB8751D0EFF8900AB07ED /* Times Flash Card.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D91EB8581D0EFF8900AB07ED /* tablesFlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				D91EB8591D0EFF8900AB07ED /* AppDelegate.swift */,
+				D91EB85B1D0EFF8900AB07ED /* ViewController.swift */,
+				D939B3901D150B550016B7ED /* CustomCellContainer.swift */,
+				D9D0D8701D0F3CD700B01455 /* TableDisplayViewController.swift */,
+				D9D0D8721D0F3E5A00B01455 /* multiplicationTableAPI.swift */,
+				D9CA1FE21D10574F009A3C60 /* MasterViewModel.swift */,
+				D91EB85D1D0EFF8900AB07ED /* Main.storyboard */,
+				D91EB8601D0EFF8900AB07ED /* Assets.xcassets */,
+				D91EB8621D0EFF8900AB07ED /* LaunchScreen.storyboard */,
+				D91EB8651D0EFF8900AB07ED /* Info.plist */,
+				D982C21A1D175B7200402FA8 /* TableGenerator.swift */,
+			);
+			path = tablesFlashCard;
+			sourceTree = "<group>";
+		};
+		D91EB86D1D0EFF8900AB07ED /* tablesFlashCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D91EB86E1D0EFF8900AB07ED /* tablesFlashCardTests.swift */,
+				D91EB8701D0EFF8900AB07ED /* Info.plist */,
+			);
+			path = tablesFlashCardTests;
+			sourceTree = "<group>";
+		};
+		D91EB8781D0EFF8900AB07ED /* tablesFlashCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D91EB8791D0EFF8900AB07ED /* tablesFlashCardUITests.swift */,
+				D91EB87B1D0EFF8900AB07ED /* Info.plist */,
+			);
+			path = tablesFlashCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D91EB8551D0EFF8900AB07ED /* Times Flash Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91EB87E1D0EFF8900AB07ED /* Build configuration list for PBXNativeTarget "Times Flash Card" */;
+			buildPhases = (
+				D91EB8521D0EFF8900AB07ED /* Sources */,
+				D91EB8531D0EFF8900AB07ED /* Frameworks */,
+				D91EB8541D0EFF8900AB07ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Times Flash Card";
+			productName = tablesFlashCard;
+			productReference = D91EB8561D0EFF8900AB07ED /* Times Flash Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D91EB8691D0EFF8900AB07ED /* Times Flash CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91EB8811D0EFF8900AB07ED /* Build configuration list for PBXNativeTarget "Times Flash CardTests" */;
+			buildPhases = (
+				D91EB8661D0EFF8900AB07ED /* Sources */,
+				D91EB8671D0EFF8900AB07ED /* Frameworks */,
+				D91EB8681D0EFF8900AB07ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D91EB86C1D0EFF8900AB07ED /* PBXTargetDependency */,
+			);
+			name = "Times Flash CardTests";
+			productName = tablesFlashCardTests;
+			productReference = D91EB86A1D0EFF8900AB07ED /* Times Flash Card.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D91EB8741D0EFF8900AB07ED /* Times Flash CardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91EB8841D0EFF8900AB07ED /* Build configuration list for PBXNativeTarget "Times Flash CardUITests" */;
+			buildPhases = (
+				D91EB8711D0EFF8900AB07ED /* Sources */,
+				D91EB8721D0EFF8900AB07ED /* Frameworks */,
+				D91EB8731D0EFF8900AB07ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D91EB8771D0EFF8900AB07ED /* PBXTargetDependency */,
+			);
+			name = "Times Flash CardUITests";
+			productName = tablesFlashCardUITests;
+			productReference = D91EB8751D0EFF8900AB07ED /* Times Flash Card.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D91EB84E1D0EFF8900AB07ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = myrattles;
+				TargetAttributes = {
+					D91EB8551D0EFF8900AB07ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 879Q82KMY2;
+					};
+					D91EB8691D0EFF8900AB07ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D91EB8551D0EFF8900AB07ED;
+					};
+					D91EB8741D0EFF8900AB07ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D91EB8551D0EFF8900AB07ED;
+					};
+				};
+			};
+			buildConfigurationList = D91EB8511D0EFF8900AB07ED /* Build configuration list for PBXProject "Times Flash Card" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D91EB84D1D0EFF8900AB07ED;
+			productRefGroup = D91EB8571D0EFF8900AB07ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D91EB8551D0EFF8900AB07ED /* Times Flash Card */,
+				D91EB8691D0EFF8900AB07ED /* Times Flash CardTests */,
+				D91EB8741D0EFF8900AB07ED /* Times Flash CardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D91EB8541D0EFF8900AB07ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91EB8641D0EFF8900AB07ED /* LaunchScreen.storyboard in Resources */,
+				D91EB8611D0EFF8900AB07ED /* Assets.xcassets in Resources */,
+				D91EB85F1D0EFF8900AB07ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91EB8681D0EFF8900AB07ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91EB8731D0EFF8900AB07ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D91EB8521D0EFF8900AB07ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91EB85C1D0EFF8900AB07ED /* ViewController.swift in Sources */,
+				D91EB85A1D0EFF8900AB07ED /* AppDelegate.swift in Sources */,
+				D9D0D8711D0F3CD700B01455 /* TableDisplayViewController.swift in Sources */,
+				D9CA1FE31D10574F009A3C60 /* MasterViewModel.swift in Sources */,
+				D982C21B1D175B7200402FA8 /* TableGenerator.swift in Sources */,
+				D939B3911D150B550016B7ED /* CustomCellContainer.swift in Sources */,
+				D9D0D8731D0F3E5A00B01455 /* multiplicationTableAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91EB8661D0EFF8900AB07ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91EB86F1D0EFF8900AB07ED /* tablesFlashCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91EB8711D0EFF8900AB07ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91EB87A1D0EFF8900AB07ED /* tablesFlashCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D91EB86C1D0EFF8900AB07ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D91EB8551D0EFF8900AB07ED /* Times Flash Card */;
+			targetProxy = D91EB86B1D0EFF8900AB07ED /* PBXContainerItemProxy */;
+		};
+		D91EB8771D0EFF8900AB07ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D91EB8551D0EFF8900AB07ED /* Times Flash Card */;
+			targetProxy = D91EB8761D0EFF8900AB07ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D91EB85D1D0EFF8900AB07ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91EB85E1D0EFF8900AB07ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D91EB8621D0EFF8900AB07ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91EB8631D0EFF8900AB07ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D91EB87C1D0EFF8900AB07ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f9382fd6-db79-4563-bb8e-a52fb5b86e45";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D91EB87D1D0EFF8900AB07ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f9382fd6-db79-4563-bb8e-a52fb5b86e45";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D91EB87F1D0EFF8900AB07ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				INFOPLIST_FILE = tablesFlashCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.multiplicationflashcard;
+				PRODUCT_NAME = "Times Flash Card";
+				PROVISIONING_PROFILE = "f9382fd6-db79-4563-bb8e-a52fb5b86e45";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D91EB8801D0EFF8900AB07ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				INFOPLIST_FILE = tablesFlashCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.multiplicationflashcard;
+				PRODUCT_NAME = "Times Flash Card";
+				PROVISIONING_PROFILE = "f9382fd6-db79-4563-bb8e-a52fb5b86e45";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D91EB8821D0EFF8900AB07ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tablesFlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.tablesFlashCardTests;
+				PRODUCT_NAME = "Times Flash Card";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Times Flash Card.app/Times Flash Card";
+			};
+			name = Debug;
+		};
+		D91EB8831D0EFF8900AB07ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tablesFlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.tablesFlashCardTests;
+				PRODUCT_NAME = "Times Flash Card";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Times Flash Card.app/Times Flash Card";
+			};
+			name = Release;
+		};
+		D91EB8851D0EFF8900AB07ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tablesFlashCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.tablesFlashCardUITests;
+				PRODUCT_NAME = "Times Flash Card";
+				TEST_TARGET_NAME = tablesFlashCard;
+			};
+			name = Debug;
+		};
+		D91EB8861D0EFF8900AB07ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tablesFlashCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.tablesFlashCardUITests;
+				PRODUCT_NAME = "Times Flash Card";
+				TEST_TARGET_NAME = tablesFlashCard;
+			};
+			name = Release;
+		};
+		D92F30411D63260C000CDFAE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f9382fd6-db79-4563-bb8e-a52fb5b86e45";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		D92F30421D63260C000CDFAE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: prethish Kuruvilla-Mathew (879Q82KMY2)";
+				INFOPLIST_FILE = tablesFlashCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.multiplicationflashcard;
+				PRODUCT_NAME = "Times Flash Card";
+				PROVISIONING_PROFILE = "f9382fd6-db79-4563-bb8e-a52fb5b86e45";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		D92F30431D63260C000CDFAE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tablesFlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.tablesFlashCardTests;
+				PRODUCT_NAME = "Times Flash Card";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Times Flash Card.app/Times Flash Card";
+			};
+			name = Distribution;
+		};
+		D92F30441D63260C000CDFAE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tablesFlashCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrattles.tablesFlashCardUITests;
+				PRODUCT_NAME = "Times Flash Card";
+				TEST_TARGET_NAME = tablesFlashCard;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D91EB8511D0EFF8900AB07ED /* Build configuration list for PBXProject "Times Flash Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91EB87C1D0EFF8900AB07ED /* Debug */,
+				D91EB87D1D0EFF8900AB07ED /* Release */,
+				D92F30411D63260C000CDFAE /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91EB87E1D0EFF8900AB07ED /* Build configuration list for PBXNativeTarget "Times Flash Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91EB87F1D0EFF8900AB07ED /* Debug */,
+				D91EB8801D0EFF8900AB07ED /* Release */,
+				D92F30421D63260C000CDFAE /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91EB8811D0EFF8900AB07ED /* Build configuration list for PBXNativeTarget "Times Flash CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91EB8821D0EFF8900AB07ED /* Debug */,
+				D91EB8831D0EFF8900AB07ED /* Release */,
+				D92F30431D63260C000CDFAE /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91EB8841D0EFF8900AB07ED /* Build configuration list for PBXNativeTarget "Times Flash CardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91EB8851D0EFF8900AB07ED /* Debug */,
+				D91EB8861D0EFF8900AB07ED /* Release */,
+				D92F30441D63260C000CDFAE /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D91EB84E1D0EFF8900AB07ED /* Project object */;
+}
