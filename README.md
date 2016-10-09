@@ -5,7 +5,7 @@ This makes using Flash Cards for Multiplication such a compelling app of memoriz
 
 Version 1.0 (Build 1.1(3)) :  Aug 18, 2016 at 3:47 PM
 --------------------------------------
-Ready for Sale
-Released: Sep 09, 2016
-Compatibility: Requires iOS 8.2 or later. 
-Compatible with iPhone, iPad, and iPod touch.
+Ready for Sale<br>
+Released: Sep 09, 2016 <br>
+Compatibility: Requires iOS 8.2 or later. <br>
+Compatible with iPhone, iPad, and iPod touch.<br>
