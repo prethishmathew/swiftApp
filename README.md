@@ -9,3 +9,10 @@ Ready for Sale<br>
 Released: Sep 09, 2016 <br>
 Compatibility: Requires iOS 8.2 or later. <br>
 Compatible with iPhone, iPad, and iPod touch.<br>
+
+Version 1.1 (Build 1.2 (4)) :  Sep 7, 2016 at 3:37 PM
+--------------------------------------
+Prepare for Submission<br>
+
+What's New in This Version ? <br>
+Reduced the number of items on each  to make the app more intuitive. 
